@@ -1,0 +1,115 @@
+ROOT="DEVOPS-ROADMAP"
+
+mkdir -p "$ROOT"
+
+# ==========================
+# File principali
+# ==========================
+touch "$ROOT/00_README.md"
+touch "$ROOT/01_ROADMAP_COMPLETO.md"
+touch "$ROOT/02_PROGRESSI_PERSONALI.md"
+touch "$ROOT/03_GLOSSARIO.md"
+
+# ==========================
+# 01 LINUX
+# ==========================
+mkdir -p "$ROOT/01_LINUX/LAB"
+
+touch "$ROOT/01_LINUX/01_Introduzione_a_Linux.md"
+touch "$ROOT/01_LINUX/02_FileSystem_Linux.md"
+touch "$ROOT/01_LINUX/03_Percorsi_Assoluti_e_Relativi.md"
+touch "$ROOT/01_LINUX/04_File_e_Directory.md"
+touch "$ROOT/01_LINUX/05_Permessi_Linux.md"
+touch "$ROOT/01_LINUX/06_Utenti_e_Gruppi.md"
+touch "$ROOT/01_LINUX/07_Processi.md"
+touch "$ROOT/01_LINUX/08_Systemd_e_Servizi.md"
+touch "$ROOT/01_LINUX/09_Log_di_Sistema.md"
+touch "$ROOT/01_LINUX/10_Comandi_Fondamentali.md"
+touch "$ROOT/01_LINUX/11_Comandi_Rete.md"
+touch "$ROOT/01_LINUX/12_Comandi_Diagnostica.md"
+touch "$ROOT/01_LINUX/13_Storage_e_Dischi.md"
+touch "$ROOT/01_LINUX/14_Pacchetti.md"
+touch "$ROOT/01_LINUX/15_Best_Practice.md"
+
+touch "$ROOT/01_LINUX/LAB/LAB01_Comandi_Base.md"
+touch "$ROOT/01_LINUX/LAB/LAB02_FileSystem.md"
+touch "$ROOT/01_LINUX/LAB/LAB03_Servizi.md"
+touch "$ROOT/01_LINUX/LAB/LAB04_Troubleshooting.md"
+
+# ==========================
+# 02 NETWORKING
+# ==========================
+mkdir -p "$ROOT/02_NETWORKING/LAB"
+
+touch "$ROOT/02_NETWORKING/01_Come_Funziona_Internet.md"
+touch "$ROOT/02_NETWORKING/02_IP_Pubblico_e_Privato.md"
+touch "$ROOT/02_NETWORKING/03_Subnet.md"
+touch "$ROOT/02_NETWORKING/04_Default_Gateway.md"
+touch "$ROOT/02_NETWORKING/05_Routing.md"
+touch "$ROOT/02_NETWORKING/06_DNS.md"
+touch "$ROOT/02_NETWORKING/07_DHCP.md"
+touch "$ROOT/02_NETWORKING/08_NAT.md"
+touch "$ROOT/02_NETWORKING/09_TCP_e_UDP.md"
+touch "$ROOT/02_NETWORKING/10_Porte.md"
+touch "$ROOT/02_NETWORKING/11_HTTP_HTTPS.md"
+touch "$ROOT/02_NETWORKING/12_Flusso_Completo_di_una_Connessione.md"
+touch "$ROOT/02_NETWORKING/13_Comandi_di_Rete.md"
+touch "$ROOT/02_NETWORKING/14_Troubleshooting_Network.md"
+
+touch "$ROOT/02_NETWORKING/LAB/LAB01_IP.md"
+touch "$ROOT/02_NETWORKING/LAB/LAB02_DNS.md"
+touch "$ROOT/02_NETWORKING/LAB/LAB03_Routing.md"
+touch "$ROOT/02_NETWORKING/LAB/LAB04_Server_non_raggiungibile.md"
+
+# ==========================
+# Cartelle principali
+# ==========================
+mkdir -p "$ROOT/03_BASH"
+mkdir -p "$ROOT/04_GIT"
+mkdir -p "$ROOT/05_DOCKER"
+mkdir -p "$ROOT/06_DOCKER_COMPOSE"
+mkdir -p "$ROOT/07_KUBERNETES"
+mkdir -p "$ROOT/08_OPENSHIFT"
+mkdir -p "$ROOT/09_ARGOCD"
+mkdir -p "$ROOT/10_TERRAFORM"
+mkdir -p "$ROOT/11_GITHUB_ACTIONS"
+mkdir -p "$ROOT/12_MONITORING"
+mkdir -p "$ROOT/13_LOGGING"
+mkdir -p "$ROOT/14_SECURITY"
+
+# ==========================
+# INTERVIEW
+# ==========================
+mkdir -p "$ROOT/15_INTERVIEW"
+
+touch "$ROOT/15_INTERVIEW/Linux.md"
+touch "$ROOT/15_INTERVIEW/Networking.md"
+touch "$ROOT/15_INTERVIEW/Docker.md"
+touch "$ROOT/15_INTERVIEW/Kubernetes.md"
+touch "$ROOT/15_INTERVIEW/OpenShift.md"
+touch "$ROOT/15_INTERVIEW/DevOps.md"
+
+# ==========================
+# Ticket reali
+# ==========================
+mkdir -p "$ROOT/16_TICKET_REALI"
+
+touch "$ROOT/16_TICKET_REALI/Ticket_001_Server_non_raggiungibile.md"
+touch "$ROOT/16_TICKET_REALI/Ticket_002_DNS_rotto.md"
+touch "$ROOT/16_TICKET_REALI/Ticket_003_Nginx_down.md"
+touch "$ROOT/16_TICKET_REALI/Ticket_004_Disco_pieno.md"
+touch "$ROOT/16_TICKET_REALI/Ticket_005_Permessi_errati.md"
+
+# ==========================
+# Cartelle finali
+# ==========================
+mkdir -p "$ROOT/17_DIAGRAMMI"
+mkdir -p "$ROOT/18_CHEATSHEETS"
+mkdir -p "$ROOT/19_PORTFOLIO"
+
+echo ""
+echo "=========================================="
+echo " Struttura DEVOPS-ROADMAP creata!"
+echo "=========================================="
+
+tree "$ROOT" 2>/dev/null || find "$ROOT"
