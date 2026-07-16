@@ -1,0 +1,213 @@
+🌳 DEVOPS-ROADMAP STRUTTURA
+DEVOPS-ROADMAP/
+
+├── 📁00 CORE MINDSET
+│
+├── 📄 00_README.md
+├── 📄 01_ROADMAP_COMPLETO.md
+├── 📄 02_PROGRESSI_PERSONALI.md
+├── 📄 03_GLOSSARIO.md
+├──  📄   04_PROMPT MASTER
+├──  📄   05_METODO DI STUDIO
+│   📄   06_DIARIO
+
+├── 📁 01_LINUX/
+│   ├── 01_Introduzione_a_Linux.md
+│   ├── 02_FileSystem_Linux.md
+│   ├── 03_Percorsi_Assoluti_e_Relativi.md
+│   ├── 04_File_e_Directory.md
+│   ├── 05_Permessi_Linux.md
+│   ├── 06_Utenti_e_Gruppi.md
+│   ├── 07_Processi.md
+│   ├── 08_Systemd_e_Servizi.md
+│   ├── 09_Log_di_Sistema.md
+│   ├── 10_Comandi_Fondamentali.md
+│   ├── 11_Comandi_Rete.md
+│   ├── 12_Comandi_Diagnostica.md
+│   ├── 13_Storage_e_Dischi.md
+│   ├── 14_Gestione_Pacchetti.md
+│   ├── 15_Best_Practice.md
+│   │
+│   ├── 📁 LAB/
+│   │   ├── LAB01_Comandi_Base.md
+│   │   ├── LAB02_FileSystem.md
+│   │   ├── LAB03_Servizi.md
+│   │   └── LAB04_Troubleshooting.md
+│   │
+│   └── 📄 RIASSUNTO_LINUX.md
+│
+├── 📁 02_NETWORKING/
+│   ├── 01_Come_Funziona_Internet.md
+│   ├── 02_IP_Pubblico_e_Privato.md
+│   ├── 03_Subnet.md
+│   ├── 04_Default_Gateway.md
+│   ├── 05_Routing.md
+│   ├── 06_DNS.md
+│   ├── 07_DHCP.md
+│   ├── 08_NAT.md
+│   ├── 09_TCP_e_UDP.md
+│   ├── 10_Porte.md
+│   ├── 11_HTTP_HTTPS.md
+│   ├── 12_Flusso_Completo_Connessione.md
+│   ├── 13_Comandi_Rete.md
+│   ├── 14_Troubleshooting.md
+│   │
+│   ├── 📁 LAB/
+│   │   ├── LAB01_IP.md
+│   │   ├── LAB02_DNS.md
+│   │   ├── LAB03_Routing.md
+│   │   └── LAB04_Server_non_raggiungibile.md
+│   │
+│   └── 📄 RIASSUNTO_NETWORKING.md
+│
+├── 📁 03_BASH/
+│   ├── Bash_01_Fondamenti.md
+│   ├── Bash_02_Variabili.md
+│   ├── Bash_03_Condizioni.md
+│   ├── Bash_04_Loop.md
+│   ├── Bash_05_Funzioni.md
+│   ├── Bash_06_Scripting.md
+│   ├── Bash_07_Automazione.md
+│   ├── Bash_08_Best_Practice.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_BASH.md
+│
+├── 📁 04_GIT/
+│   ├── Git_01_Base.md
+│   ├── Git_02_Remote_e_Collaborazione.md
+│   ├── Git_03_Workflow_Professionali.md
+│   ├── Git_04_Workflow_Avanzati.md
+│   ├── Git_05_Workflow_Aziendali.md
+│   ├── Git_06_Git_DevOps.md
+│   ├── Git_07_Simulazione_Aziendale.md
+│   ├── 📄 Git_Riassunto_Completo.md
+│   └── 📄 Git_Glossario.md
+│
+├── 📁 05_DOCKER/
+│   ├── Docker_01_Introduzione.md
+│   ├── Docker_02_Immagini.md
+│   ├── Docker_03_Container.md
+│   ├── Docker_04_Volumi.md
+│   ├── Docker_05_Reti.md
+│   ├── Docker_06_Dockerfile.md
+│   ├── Docker_07_Registry.md
+│   ├── Docker_08_Best_Practice.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_DOCKER.md
+│
+├── 📁 06_DOCKER_COMPOSE/
+│   ├── Compose_01.md
+│   ├── Compose_02.md
+│   ├── Compose_03.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_COMPOSE.md
+│
+├── 📁 07_KUBERNETES/
+│   ├── K8s_01_Fondamenti.md
+│   ├── K8s_02_Pod.md
+│   ├── K8s_03_Deployment.md
+│   ├── K8s_04_Service.md
+│   ├── K8s_05_ConfigMap.md
+│   ├── K8s_06_Secret.md
+│   ├── K8s_07_Ingress.md
+│   ├── K8s_08_Storage.md
+│   ├── K8s_09_Troubleshooting.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_KUBERNETES.md
+│
+├── 📁 08_OPENSHIFT/
+│   ├── OpenShift_01.md
+│   ├── OpenShift_02.md
+│   ├── OpenShift_03.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_OPENSHIFT.md
+│
+├── 📁 09_ARGOCD_GITOPS/
+│   ├── GitOps_01.md
+│   ├── ArgoCD_01.md
+│   ├── FluxCD_01.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_GITOPS.md
+│
+├── 📁 10_TERRAFORM/
+│   ├── Terraform_01.md
+│   ├── Terraform_02.md
+│   ├── Terraform_03.md
+│   ├── Terraform_04.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_TERRAFORM.md
+│
+├── 📁 11_CI_CD/
+│   ├── CI_CD_01_Fondamenti.md
+│   ├── GitHub_Actions.md
+│   ├── GitLab_CI.md
+│   ├── Jenkins.md
+│   ├── Pipeline_Reali.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_CI_CD.md
+│
+├── 📁 12_MONITORING/
+│   ├── Prometheus.md
+│   ├── Grafana.md
+│   ├── AlertManager.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_MONITORING.md
+│
+├── 📁 13_LOGGING/
+│   ├── Logging.md
+│   ├── ELK.md
+│   ├── Loki.md
+│   ├── Fluentd.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_LOGGING.md
+│
+├── 📁 14_SECURITY/
+│   ├── Linux_Hardening.md
+│   ├── RBAC.md
+│   ├── Secrets.md
+│   ├── Container_Security.md
+│   ├── Vulnerability_Scanning.md
+│   ├── 📁 LAB/
+│   └── 📄 RIASSUNTO_SECURITY.md
+│
+├── 📁 15_INTERVIEW/
+│   ├── Linux.md
+│   ├── Networking.md
+│   ├── Bash.md
+│   ├── Git.md
+│   ├── Docker.md
+│   ├── Kubernetes.md
+│   ├── OpenShift.md
+│   ├── Terraform.md
+│   ├── DevOps.md
+│   └── Domande_HR.md
+│
+├── 📁 16_TICKET_REALI/
+│   ├── Ticket_001_Server_non_raggiungibile.md
+│   ├── Ticket_002_DNS_rotto.md
+│   ├── Ticket_003_Nginx_down.md
+│   ├── Ticket_004_Disco_pieno.md
+│   ├── Ticket_005_Permessi_errati.md
+│   ├── Ticket_006_Pod_in_CrashLoop.md
+│   ├── Ticket_007_Pipeline_Fallita.md
+│   └── Ticket_008_Cluster_non_raggiungibile.md
+│
+├── 📁 17_DIAGRAMMI/
+│
+├── 📁 18_CHEATSHEETS/
+│   ├── Linux.md
+│   ├── Git.md
+│   ├── Docker.md
+│   ├── Kubernetes.md
+│   ├── Terraform.md
+│   └── Networking.md
+│
+└── 📁 19_PORTFOLIO/
+    ├── Progetto_01_Linux.md
+    ├── Progetto_02_Docker.md
+    ├── Progetto_03_Kubernetes.md
+    ├── Progetto_04_CI_CD.md
+    ├── Progetto_05_GitOps.md
+    └── Capstone_DevOps.md
+
+
