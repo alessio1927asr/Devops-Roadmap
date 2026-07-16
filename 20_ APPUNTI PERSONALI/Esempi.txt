@@ -1,0 +1,149 @@
+Ad esempio, 02_NETWORKING06_DNS.md
+
+# DNS
+
+──────────────────────────────
+
+## Obiettivo
+
+Cos'è il DNS e perché esiste.
+
+──────────────────────────────
+
+## Spiegazione semplice
+
+...
+
+──────────────────────────────
+
+## Analogia
+
+...
+
+──────────────────────────────
+
+## Come funziona
+
+...
+
+──────────────────────────────
+
+## Esempio reale
+
+...
+
+──────────────────────────────
+
+## Comandi Linux
+
+dig
+
+nslookup
+
+host
+
+ping
+
+──────────────────────────────
+
+## Errori comuni
+
+...
+
+──────────────────────────────
+
+## Troubleshooting
+
+...
+
+──────────────────────────────
+
+## Domande da colloquio
+
+...
+
+──────────────────────────────
+
+## Riassunto
+
+... 
+
+
+
+
+
+16_TICKET_REALI
+
+Conterrà ogni simulazione che faremo.
+
+Ad esempio
+
+Ticket_001_Server_non_raggiungibile.md
+
+avrà questa struttura
+
+Problema
+
+↓
+
+Sintomi
+
+↓
+
+Informazioni iniziali
+
+↓
+
+Comandi eseguiti
+
+↓
+
+Output
+
+↓
+
+Ragionamento
+
+↓
+
+Ipotesi
+
+↓
+
+Diagnosi
+
+↓
+
+Soluzione
+
+↓
+
+Verifica finale
+
+↓
+
+Cosa ho imparato
+
+
+
+18_CHEATSHEETS
+
+Qui raccoglieremo schede sintetiche da consultare rapidamente.
+
+Ad esempio
+
+Linux_Command_CheatSheet.md
+
+Networking_CheatSheet.md
+
+Docker_CheatSheet.md
+
+Kubernetes_CheatSheet.md
+
+Git_CheatSheet.md
+
+Terraform_CheatSheet.md
+
+OpenShift_CheatSheet.md
+
+In poche pagine avrai i comandi e i concetti chiave, utilissimi prima di un colloquio o durante un'attività pratica
